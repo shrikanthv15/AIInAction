@@ -1,0 +1,224 @@
+.EventPage{
+    background-color: white;
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+    margin-top: -22px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.eventimg{
+    width: 600px;
+    height: 400px;
+    
+    background-size: cover;
+    background-image: url('https://adroitps.com/images/events/event-3.jpg');
+}
+
+.overview{
+    justify-content: start;
+    text-align: start;
+    left: 5%;
+    width: 100%;
+    top: 5%;
+    color: rgb(255, 141, 160);
+    margin-top: 0%;
+    height: auto;
+    display: flex;
+    position: absolute;
+  }
+
+  .eventtext{
+    align-items: end;
+    justify-content: end;
+    text-align: start;
+    left: 50%;
+    width: 40%;
+    top: 0%;
+    color: rgb(255, 141, 160);
+    margin-top: -5%;
+    height: auto;
+    position: absolute;
+  }
+
+
+
+
+.texts{
+    width: 100%;
+    height: 65%;
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    margin-top: 5%;
+    color: white;
+    
+    position: absolute;
+}
+
+.textsforevent{
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  width: 80%;
+}
+
+.textsforevent p{
+  margin-top: 5%;
+  font-size: 20px;
+}
+.lists{
+    width: 100%;
+    height: 100%;
+    left: 2%;
+    top: 10%;
+    
+    position: absolute;
+}
+
+
+button {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    top: 30%;
+    left: 54.3%;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+  .era{
+    position: absolute;
+    top: -5%;
+    left: 39.2%;
+    margin-top: -5px;
+  }
+  .gen{
+    position: absolute;
+    top: -5%;
+    left: 33%;
+    margin-top: -5px;
+  }
+
+  .tive{
+    position: absolute;
+    top: -5%;
+    left: 47%;
+    margin-top: -5px;
+
+
+  }
+  .ai { 
+    position: absolute;
+    font-size: 32px;
+    left: 58%;
+    margin-top: -0.7%;
+
+}
+
+
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
+
+.speakerpage{
+  position: absolute;
+  top: 340%;
+}
+
+.line{
+  z-index: 2;
+  position: absolute;
+  left: 20%;
+  height: 1050px;
+   width: 1px;
+  background-color: black;
+}
+
+.eventtext {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

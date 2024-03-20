@@ -1,0 +1,78 @@
+.AboutUsPage{
+    background-color: grey;
+    position: absolute;
+    width: 98.5vw;
+    height: 60%;
+    justify-content: center;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -20%;
+}
+.authirddivtext{
+    position: absolute;
+    left: 75%;
+    top: 23%;
+    font-family: "Anta", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    font-style: normal;
+}
+.aboutustitle{
+    position: absolute;
+    left: 42%;
+}
+.aboutflex{
+    top: 15%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.aufirstdiv{
+    position: absolute;
+    left: 7%;
+}
+.auseconddiv{
+    position: absolute;
+    left: 42%;
+}
+
+.authirddiv{
+    position: absolute;
+    left: 74.85%;
+}
+
+.authirddivno{
+    position: absolute;
+    left: 75%;
+    top: 17%;
+    font-family: "Anta", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+.colortext{
+    animation: color 5s infinite;
+}
+
+@keyframes color{
+    0%{
+        color: black;
+
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: rgb(78, 9, 205);
+    }
+    100%{
+        color: rgb(80, 232, 15);
+    }
+}

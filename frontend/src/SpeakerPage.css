@@ -1,0 +1,32 @@
+.SpeakerPage{
+    width: 98.5vw;
+    min-height: 80vh;
+    background-color: white;
+    position: absolute;
+    color: black;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -15%;
+}
+.speakertitle{
+    position: absolute;
+    left: 5%;
+}
+
+
+.pastspeakers {
+    top: 15%;
+    position: absolute;
+    border-radius: 50%; /* Make it a circle */
+    display: inline-block; /* To avoid extra space below */
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+  
+    padding: 5%; /* Set a percentage value for padding to maintain aspect ratio */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
